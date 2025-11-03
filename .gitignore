@@ -3,9 +3,9 @@
 !/.config/
 !/MyCode/
 
-!/MyCode/Dotfiles/*
 /MyCode/*
-
+!/MyCode/Dotfiles/
+!/MyCode/Dotfiles/**
 
 /.config/*
 
