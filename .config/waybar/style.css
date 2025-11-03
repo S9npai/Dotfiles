@@ -130,7 +130,7 @@ menu menuitem {
 }
 
 #cpu {
-    min-width: 190px;
+    min-width: 110px;
     color: @celeste;
 }
 

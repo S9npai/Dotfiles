@@ -12,4 +12,4 @@ sudo dnf install gstreamer1-plugin-openh264 mozilla-openh264 --allowerasing
 sudo dnf group install multimedia ffmpeg ffmpeg-devel --allowerasing
 
 sudo copr enable solopasha/hyprland
-sudo dnf install hyprland wofi wlogout waybar-git waypaper swaybg btop brightnessctl wireplumber --allowerasing -y
+sudo dnf install hyprland wofi wlogout waybar-git waypaper swaybg btop brightnessctl wireplumber tmux nvim fastfetch --allowerasing -y

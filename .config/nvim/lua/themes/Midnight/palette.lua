@@ -22,7 +22,7 @@ return {
     Havelock_blue = "#75a9e8",
     yellow = '#c4c454',
     orange = '#d99f55',
-    green = '#6cd162',
+    green = '#6cd16f',
     dark_green = "#3b8f5b",
     red = '#f48771',
     pink = '#de52de',
@@ -32,7 +32,12 @@ return {
     light_mint = "#63d69e",
     beige = "#b5b874",
     Turqoise = "#6ad6e4",
+    Seagull = "#7eb6e2",
+    Azure = "#3962b8",
     Aquaforest = "#6cb899",
+    Cinnanmon = "#e05e17",
+    Malachite = "#17e05a",
+    Amethyst = "#d15fe2",
 
     -- UI colors
     gutter_bg = '#1e1e1e',
