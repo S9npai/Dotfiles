@@ -1,15 +1,3 @@
-```Go
-Myself = {
-    name: "Omar",
-    aka: "S9npai", 
-    location: "Complex Space",
-    Tools: ["C++","Python","Go",
-	"Pydantic","FastAPI","MySQL","PostgreSQL",
-	"SQLAlchemy","NumPy", "Pandas", "CMake",
-	"Git", "GitHub", "Postman"],
-};
-```
-
 # Senpai Dots ✨
 
 *Full Fedora & Hyprland rice*
@@ -23,8 +11,8 @@ Myself = {
 
 ---
 ## Screenshots
-[obsidian](/MyCode/Dots/assets/screenshots/2025-11-17-23-16-18_grim.png)
-[fastfetch](/MyCode/Dots/assets/screenshots/2025-11-17-23-34-03_grim.png)
+![obsidian](/MyCode/Dots/assets/screenshots/2025-11-17-23-16-18_grim.png)
+![fastfetch](/MyCode/Dots/assets/screenshots/2025-11-17-23-34-03_grim.png)
 
 ---
 
@@ -82,5 +70,3 @@ cd ~/dotfiles/MyCode/Dots && ./install.sh
 **Special thanks to**:
 - Catppuccin team
 - DankMaterialShell
-
-
