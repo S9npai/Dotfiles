@@ -2,6 +2,7 @@
 !/.gitignore
 !/.config/
 !/MyCode/
+!/README.md
 
 /MyCode/*
 !/MyCode/Dots/
