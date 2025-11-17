@@ -1,5 +1,4 @@
 -- lua/plugins/telescope.lua
--- Fuzzy finder and utility suite.
 
 return {
     'nvim-telescope/telescope.nvim',
@@ -10,7 +9,6 @@ return {
     config = function()
         local builtin = require('telescope.builtin')
 
-        -- Setup function to configure Telescope options (optional)
         require('telescope').setup({
             defaults = {
                 mappings = {
@@ -35,7 +33,7 @@ return {
         vim.keymap.set('n', '<leader>fb', builtin.buffers, { desc = '[F]ind [B]uffers' })
         vim.keymap.set('n', '<leader>fh', builtin.help_tags, { desc = '[F]ind [H]elp' })
 
-        -- NEW: Theme Switcher Keymap
+        -- Theme Switcher Keymap
         vim.keymap.set('n', '<leader>c', builtin.colorscheme, { desc = '[T]heme [C]hanger' })
     end,
 }

@@ -4,8 +4,8 @@
 !/MyCode/
 
 /MyCode/*
-!/MyCode/Dotfiles/
-!/MyCode/Dotfiles/**
+!/MyCode/Dots/
+!/MyCode/Dots/**
 
 /.config/*
 
@@ -17,7 +17,6 @@
 !/.config/bpytop/
 !/.config/fastfetch/
 !/.config/nvim/
-!/.config/mako/
 !/.config/kitty/
 !/.config/zed/
 !/.config/starship.toml

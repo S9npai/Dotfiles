@@ -137,6 +137,4 @@ return {
             vim.cmd("colorscheme vague")
         end
     },
-
-    -- To switch themes interactively, use the command :Telescope colorscheme
 }

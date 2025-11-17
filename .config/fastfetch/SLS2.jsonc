@@ -3,7 +3,7 @@
   "logo": {
     "type": "auto",
     "source": "/home/omar/.config/fastfetch/logos/Sun Jin Woo SL ep25.jpg",
-    "width": 40,
+    "width": 50,
     "preserveAspectRatio": true,
     "padding": {
       "right": 4,
@@ -135,7 +135,6 @@
     },
   ],
 }
-
 /*
 ╭  (top-left corner)
 ╮  (top-right corner)

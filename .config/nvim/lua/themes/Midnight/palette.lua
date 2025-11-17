@@ -21,7 +21,7 @@ return {
     lightblue = '#689ae8',
     Havelock_blue = "#75a9e8",
     yellow = '#c4c454',
-    orange = '#d99f55',
+    orange = '#dbaa6f',
     green = '#6cd16f',
     dark_green = "#3b8f5b",
     red = '#f48771',

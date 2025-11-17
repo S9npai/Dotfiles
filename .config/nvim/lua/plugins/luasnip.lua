@@ -53,9 +53,6 @@ return {
                 },
             },
         })
-
-        -- OPTIONAL: Load VS Code style snippets from the 'friendly-snippets' plugin
-        -- This provides a massive collection of snippets for many languages.
         require("luasnip.loaders.from_vscode").lazy_load()
     end,
 }

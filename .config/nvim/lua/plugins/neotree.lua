@@ -1,6 +1,4 @@
 -- lua/plugins/neotree.lua
--- Configuration for the Neo-tree file explorer plugin.
-
 return {
     'nvim-neo-tree/neo-tree.nvim',
     branch = 'v3.x',

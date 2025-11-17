@@ -20,8 +20,8 @@ M.setup = function()
         Visual = { bg = colors.visual },
         Search = { bg = colors.search },
         IncSearch = { bg = colors.inc_search },
-        Pmenu = { fg = colors.fg0, bg = colors.pmenu },
-        PmenuSel = { fg = colors.fg0, bg = colors.pmenu_sel },
+        Pmenu = { fg = colors.fg1, bg = colors.pmenu },
+        PmenuSel = { fg = colors.fg1, bg = colors.pmenu_sel },
         PmenuSbar = { bg = colors.bg2 },
         PmenuThumb = { bg = colors.fg3 },
         TabLine = { fg = colors.fg1, bg = colors.bg1 },
@@ -69,7 +69,7 @@ M.setup = function()
         DiagnosticWarn = { fg = colors.gold },
         DiagnosticInfo = { fg = colors.blue },
         DiagnosticHint = { fg = colors.green },
-        LspReferenceText = { bg = colors.bg3 },
+        ReferenceText = { bg = colors.bg3 },
         LspReferenceRead = { bg = colors.bg3 },
         LspReferenceWrite = { bg = colors.bg3 },
 
@@ -83,7 +83,7 @@ M.setup = function()
         ["@method"] = { fg = colors.yellow },
         ["@method.call"] = { fg = colors.yellow },
         ["@keyword"] = { fg = colors.lightblue },
-        ["@keyword.function"] = { fg = colors.purple },
+        ["@keyword.function"] = { fg = colors.Havelock_blue },
         ["@keyword.operator"] = { fg = colors.purple },
         ["@keyword.return"] = { fg = colors.Turqoise },
         ["@keyword.import"] = { fg = colors.lightblue },
@@ -146,6 +146,14 @@ M.setup = function()
         DashboardCenter = { fg = c.purple },
         DashboardFooter = { fg = c.fg_muted, italic = true },
         DashboardShortCut = { fg = c.Aquaforest },
+
+        -- === CMP (Autocompletion) ===
+        CmpBorder = { fg = c.fg1, bg = c.pmenu },          -- Bright white border
+        CmpDocBorder = { fg = c.fg1, bg = c.bg2 },         -- Documentation border
+        CmpDocNormal = { fg = c.fg1, bg = c.bg2 },         -- Documentation text
+        CmpNormal = { fg = c.fg1, bg = c.pmenu },          -- Menu background
+        CmpItemAbbrMatch = { fg = c.yellow, bold = true }, -- Matching text highlight
+        CmpItemAbbrMatchFuzzy = { fg = c.yellow },         -- Fuzzy match
     }
 end
 

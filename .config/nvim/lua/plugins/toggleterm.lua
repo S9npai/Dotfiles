@@ -12,7 +12,6 @@ return {
         { "<leader>g",  "<cmd>lua _LAZYGIT_TOGGLE()<cr>",           desc = "Toggle Lazygit" },
     },
 
-    -- NEW: The 'config' function runs after the plugin is loaded
     config = function(_, opts)
         require("toggleterm").setup(opts)
 

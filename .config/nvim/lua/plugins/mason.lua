@@ -9,7 +9,6 @@ return {
     config = function()
         local mason = require("mason")
 
-        -- ONLY call mason.setup() here.
         mason.setup({
             ui = {
                 icons = {
