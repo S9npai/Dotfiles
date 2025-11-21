@@ -1,4 +1,4 @@
-# ~/.config/starship.toml 
+# ~/.config/starship.toml 
 
 # Global options (from `settings` block)
 
@@ -137,6 +137,11 @@ format = "[ $symbol ($version) ](fg:#101010 bg:#769ff0)"
 [haskell]
 symbol = ""
 style = "bg:#72d0ed"
+format = "[ $symbol ($version) ](fg:#101010 bg:#769ff0)"
+
+[golang]
+symbol = "  "
+style = "bg:#69ccdb"
 format = "[ $symbol ($version) ](fg:#101010 bg:#769ff0)"
 
 [python]

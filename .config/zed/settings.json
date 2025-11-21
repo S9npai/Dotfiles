@@ -22,7 +22,7 @@
   "ui_font_family": "Inter",
   "ui_font_weight": 500.0,
   "buffer_font_size": 16.0,
-  "buffer_font_family": "SFMono Nerd Font",
+  "buffer_font_family": "JetBrainsMono Nerd Font Mono",
   "buffer_font_weight": 500.0,
   "theme": {
     "mode": "dark",
