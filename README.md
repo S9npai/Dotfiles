@@ -58,7 +58,7 @@
 ---
 ## Installation
 
-Clone and run the install script:
+Clone and run the install script to install neccessary utilities for the setup (note that's only for Fedora, Idk what about other distros):
 
 ```bash
 git clone https://github.com/S9npai/dotfiles.git
