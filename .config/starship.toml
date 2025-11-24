@@ -9,10 +9,9 @@ command_timeout = 2000
 # This is where the 'format' string goes, translated from `lib.concatStrings`
 # Each item in the `lib.concatStrings` list becomes a segment in the string.
 format = """\
-[ ◢](fg:#42b6d6)\
+[ ◢](fg:#84aad9)\
 $os\
-$username\
-[](fg:#42b6d6 bg:#5bc7b9)\
+[](fg:#84aad9 bg:#5bc7b9)\
 $directory\
 [](fg:#5bc7b9 bg:#4ba6b8)\
 $git_branch\
@@ -43,7 +42,7 @@ $time\
 
 [os]
 disabled = false
-style = "bg:#42b6d6 fg:#101010"
+style = "bg:#84aad9 fg:#101010"
 
 [os.symbols]
 NixOS = ""
@@ -67,17 +66,15 @@ Redhat = "󱄛"
 
 [username]
 show_always = true
-style_user = "bg:#42b6d6 fg:#101010"
+style_user = "bg:#84aad9 fg:#101010"
 style_root = "bg:#5e81ac fg:#101010"
-format = "[ $user ]($style)" # Removed the extra `(bg:#5e81ac fg:base06)` as style already applies it. 
+format = "[ $user ]($style)"
 
 [directory]
 style = "bg:#5bc7b9 fg:#101010"
 format = "[ $path ]($style)"
 use_os_path_sep = true
 truncate_to_repo = false
-#truncation_length = 3
-#truncation_symbol = "..."
 
 [directory.substitutions]
 Documents = "󰈙"
@@ -88,9 +85,6 @@ Pictures = ""
 [git_branch]
 symbol = " "
 style = "bg:#a3aed2"
-# The format string was complex; let's simplify for direct TOML and common usage.
-# If you want the nested brackets, you need to be careful with escaping.
-# Assuming you want `( symbol branch )` and `( status ahead_behind )`
 format = "[ ( $symbol$branch(:$remote_branch) )](fg:#0f0f0f bg:#4ba6b8)"
 
 
